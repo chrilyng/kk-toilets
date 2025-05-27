@@ -1,0 +1,14 @@
+{
+  "name": "kk-toilets",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node src/app"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "3.4.0",
+    "mongodb": "^2.2.35",
+    "pug": "^2.0.4"
+  }
+}

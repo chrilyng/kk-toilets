@@ -1,0 +1,74 @@
+extends layout
+
+block content
+    div.container
+      div.page-header
+        h1 <strong>Toiletter i København</strong>
+      div.row
+        span(class="col-xs-12 col-md-3")
+          p.
+            Vælg en bydel og type
+          form.form-inline(method="get")
+            div(class="panel panel-primary")
+              div.panel-heading
+                  div.title(class="panel-title") Selektion 
+              div.panel-body
+                ul.list-group
+                  li.list-group-item  
+                    div.form-group
+                    label(for="bydel_select") Bydele
+                    select(id="bydel_select", name="bydel", class="form-control")
+                      option
+                      each bydel in bydels
+                        option(
+						  selected= bydel._id === selected_region ? true : false
+						)= bydel._id
+                ul.list-group
+                  li.list-group-item 
+                    div.form-group
+                    label(for="type_select") Type
+                    select(id="type_select", name="type", class="form-control")
+                      option
+                      each ttype in ttyps
+                        option(
+						  selected= ttype._id === selected_type ? true : false
+						)= ttype._id
+                ul.list-group
+                  li.list-group-item 
+                    div.form-group
+                    label(for="time_select") Tid
+                    select(id="time_select", name="tid", class="form-control")
+                      each tim in times
+                        option(
+						  selected= tim._id === selected_time ? true : false
+						)= tim._id
+                input(type="submit", value="Opdater", class="btn btn-lg btn-primary btn-block")
+        span(class="col-xs-12 col-md-9")
+          div(class="panel panel-primary")
+            div.panel-heading
+              div.title(class="panel-title")= title
+            table(class="table table-hover")
+                thead
+                  tr.row
+                    td(class="col-xs-12 col-md-3") Toilet type
+                    td(class="col-xs-12 col-md-2") Åbnings tid
+                    td(class="col-xs-12 col-md-6") Lokation 
+                    td(class="col-xs-1 col-md-1") 
+                each toilet in toilets
+                  tr.row
+                    td(class="col-xs-12 col-md-3")= toilet.properties.toilet_type
+                    td(class="col-xs-12 col-md-2")= toilet.properties.toilet_aaben_tid
+                    td(class="col-xs-12 col-md-6")= toilet.properties.lokation 
+                    td(class="col-xs-1 col-md-1") 
+                      a(href="http://www.openstreetmap.org/?mlat="+toilet.geometry.coordinates[1]+"&mlon="+toilet.geometry.coordinates[0],class="glyphicon glyphicon-map-marker")
+            div.panel-footer
+              ul.pagination
+                each pageno in pages
+                  li.page-item
+                    a(
+					  href=pageno.page_no === active ? "#" : pageno.page_link, 
+                      style=pageno.page_no === active ? "" : "background-color:grey; color:white;"
+					)= pageno.page_no
+      div
+        span Data tilhører Københavns Kommune: 
+          a(href="http://data.kk.dk/dataset/toiletter") kilde

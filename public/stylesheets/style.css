@@ -1,0 +1,38 @@
+/*@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300);*/
+
+html,
+body {
+/*  background: #eee url("../img/rocket.png") bottom left / auto 50% no-repeat; */
+  height: 100%;
+  font-family: sans-serif;
+  background: #222222;
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: serif;
+  text-align: center;
+}
+thead {
+  background-color: #EECC99;
+  padding: 12px;
+  border-bottom: 4px #000000;
+}
+
+tr {
+  color: #222222;
+}
+
+.panel-primary {
+  background-color: #DDBB88;
+}
+
+.panel-body {
+  color: #222222;
+
+}
+/*.container {
+  width: auto;
+}*/
+
+
