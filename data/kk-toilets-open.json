@@ -1,123 +1,113 @@
 [
-                {
-                        "tidsperiode" : null
-                },
-                {
-                        "tidsperiode" : "09-18:30 ",
-                        "gruppe" : "dagstimer"
-
-                },
-                {
-                        "tidsperiode" : "09-22:30",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "1/4 - 30/9",
-                        "gruppe" : "sommer"
-                },
-                {
-                        "tidsperiode" : "1/4-30/3",
-                        "gruppe" : "altid"
-
-                },
-                {
-                        "tidsperiode" : "1/4-30/9",
-                        "gruppe" : "sommer"
-                },
-                {
-                        "tidsperiode" : "10-19 man-tors, 10-20 fre, 10-18 lør og 11-17 søn.",
-                        "gruppe" : "dagstimer"
-
-                },
-                {
-                        "tidsperiode" : "8-22 alle dage",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "9-18:30",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "9-22.30",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "Døgnåbent",
-                        "gruppe" : "altid"
-
-                },
-                {
-                        "tidsperiode" : "Døgnåbent hele året",
-                        "gruppe" : "altid"
-                },
-                {
-                        "tidsperiode" : "Hele døgnet",
-                        "gruppe" : "altid"
-
-                },
-                {
-                        "tidsperiode" : "Hele året",
-                        "gruppe" : "altid"
-                },
-                {
-                        "tidsperiode" : "Lukker når frosten kommer",
-                        "gruppe" : "ikkevinter"
-                },
-                {
-                        "tidsperiode" : "Lukkes når frosten kommer",
-                        "gruppe" : "ikkevinter"
-
-                },
-                {
-                        "tidsperiode" : "Lukkes når frosten kommer.",
-                        "gruppe" : "ikkevinter"
-
-                },
-                {
-                        "tidsperiode" : "Når kirkegården er åben",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "Samme åbningstider som kirkegården",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "hele året",
-                        "gruppe" : "altid"
-
-                },
-                {
-                        "tidsperiode" : "lukkes når frosten kommer.",
-                        "gruppe" : "ikkevinter"
-
-                },
-                {
-                        "tidsperiode" : "lukket mell 19-09",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "lukket mell 19-09 ",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "når det er plusgrader",
-                        "gruppe" : "ikkevinter"
-
-                },
-                {
-                        "tidsperiode" : "Åben når kirkegården er åben",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "Åbent når kirkegården er åben",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "Åbent når kirkegården er åben.",
-                        "gruppe" : "dagstimer"
-                },
-                {
-                        "tidsperiode" : "Åbner når kirkegården åbner",
-                        "gruppe" : "dagstimer"
-                }
+  {
+    "tidsperiode": null
+  },
+  {
+    "tidsperiode": "09-18:30 ",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "09-22:30",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "1/4 - 30/9",
+    "gruppe": "sommer"
+  },
+  {
+    "tidsperiode": "1/4-30/3",
+    "gruppe": "altid"
+  },
+  {
+    "tidsperiode": "1/4-30/9",
+    "gruppe": "sommer"
+  },
+  {
+    "tidsperiode": "10-19 man-tors, 10-20 fre, 10-18 lør og 11-17 søn.",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "8-22 alle dage",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "9-18:30",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "9-22.30",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "Døgnåbent",
+    "gruppe": "altid"
+  },
+  {
+    "tidsperiode": "Døgnåbent hele året",
+    "gruppe": "altid"
+  },
+  {
+    "tidsperiode": "Hele døgnet",
+    "gruppe": "altid"
+  },
+  {
+    "tidsperiode": "Hele året",
+    "gruppe": "altid"
+  },
+  {
+    "tidsperiode": "Lukker når frosten kommer",
+    "gruppe": "ikkevinter"
+  },
+  {
+    "tidsperiode": "Lukkes når frosten kommer",
+    "gruppe": "ikkevinter"
+  },
+  {
+    "tidsperiode": "Lukkes når frosten kommer.",
+    "gruppe": "ikkevinter"
+  },
+  {
+    "tidsperiode": "Når kirkegården er åben",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "Samme åbningstider som kirkegården",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "hele året",
+    "gruppe": "altid"
+  },
+  {
+    "tidsperiode": "lukkes når frosten kommer.",
+    "gruppe": "ikkevinter"
+  },
+  {
+    "tidsperiode": "lukket mell 19-09",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "lukket mell 19-09 ",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "når det er plusgrader",
+    "gruppe": "ikkevinter"
+  },
+  {
+    "tidsperiode": "Åben når kirkegården er åben",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "Åbent når kirkegården er åben",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "Åbent når kirkegården er åben.",
+    "gruppe": "dagstimer"
+  },
+  {
+    "tidsperiode": "Åbner når kirkegården åbner",
+    "gruppe": "dagstimer"
+  }
 ]
